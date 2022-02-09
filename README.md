@@ -10,6 +10,8 @@ Apache Spark is a cluster computing engine designed to be fast and general-purpo
 
 Note: Local build is currently only supported on Linux OS distributions.
 
+![Alt text](https://github.com/Yashiine/projet-docker/blob/main/images/workspace/data/tree.PNG?raw=true "Tree structure")
+
 1. Download the source code or clone the repository;
 2. Move to the build directory;
 ```javascript
