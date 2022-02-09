@@ -13,7 +13,7 @@ Note: Local build is currently only supported on Linux OS distributions.
 1. Download the source code or clone the repository;
 2. Move to the build directory;
 ```javascript
-cd build
+cd images
 ```
 3. Edit the build.yml file with your favorite tech stack version;
 4. Match those version on the docker compose file;
