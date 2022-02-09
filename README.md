@@ -150,3 +150,10 @@ EXPOSE 8888
 WORKDIR ${SHARED_WORKSPACE}
 CMD jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token=
 ```
+
+## Repositories Docker hub
+- [Container Jupyterlab](https://hub.docker.com/repository/docker/fyngom/jupyterlab)
+- [Container Cluster-base](https://hub.docker.com/repository/docker/fyngom/cluster-base)
+- [Container Spark-base](https://hub.docker.com/repository/docker/fyngom/spark-base)
+- [Container Spark-master](https://hub.docker.com/repository/docker/fyngom/spark-master)
+- [Container Spark-worker](https://hub.docker.com/repository/docker/fyngom/spark-worker)
