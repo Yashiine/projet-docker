@@ -38,7 +38,7 @@ docker-compose up
 
 ## Architecture
 
-![Alt text](https://github.com/chissi007/projet-docker/blob/main/build/workspace/data/architecture.png?raw=true "Title")
+![Alt text](https://github.com/Yashiine/projet-docker/blob/main/images/workspace/data/architecture.png?raw=true "Title")
 
 The cluster is composed of four main components: the JupyterLab IDE, the Spark master node and two Spark workers nodes. The user connects to the master node and submits Spark commands through the nice GUI provided by Jupyter notebooks. The master node processes the input and distributes the computing workload to workers nodes, sending back the results to the IDE. The components are connected using the network and share data among each other via a shared mounted volume that simulates an HDFS.
 
